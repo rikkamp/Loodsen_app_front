@@ -1,0 +1,16 @@
+.footer {
+    background: #2f2d2d;
+    padding: 1rem;
+    &Name {
+        color: white;
+    }
+    &Link {
+        color: white;
+        &:hover {
+            cursor: pointer;
+        }
+        &:visited {
+            color: white;
+        }
+    }
+}

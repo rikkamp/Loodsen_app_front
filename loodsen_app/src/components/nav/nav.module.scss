@@ -1,0 +1,27 @@
+.nav {
+    background: #961f3a;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0 1rem 1rem;
+    &Item {
+        text-decoration: none;
+        padding-right: 1rem;
+        font-weight: 800;
+        font-size: 20px;
+        color: black;
+        &:visited {
+            color: black;
+        }
+        &:hover {
+            cursor: pointer;
+            color: gray;
+        }
+        &Active {
+            text-decoration: none;
+            padding-right: 1rem;
+            font-weight: 800;
+            font-size: 20px;
+            color: white;
+        }
+    }
+}

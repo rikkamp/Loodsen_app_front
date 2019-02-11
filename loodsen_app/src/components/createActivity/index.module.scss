@@ -1,0 +1,27 @@
+.wrapper {
+    padding: 1rem;
+}
+.gameInput{
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    &Big {
+    width: calc(100% - 2rem);
+    min-width: calc(100% -2rem);
+    max-width: calc(100% -2rem);
+    resize: none;
+    padding: 1rem;
+    min-height: 100px;
+    }
+}
+
+.button {
+    border-radius: 8px;
+    background: #7b7b7b;
+    padding: 4px 16px;
+    border: 0;
+    margin: 0 auto;
+    align-self: center;
+    &:hover {
+        background: #676666;
+    }
+}

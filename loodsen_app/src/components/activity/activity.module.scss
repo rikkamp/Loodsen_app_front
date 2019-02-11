@@ -1,0 +1,61 @@
+.game {
+    padding: 5%;
+
+    &Title {
+        text-align: center;
+        color: #961f3a;
+        font-weight: 800;
+        font-size: 35px;
+        margin: 0;
+        &Sub {
+            font-weight: 800;
+            margin: 3px 0;
+        }
+    }
+    &Desc {
+        margin: 0;
+    }
+    &Tut {
+        margin: 0;
+        
+    }
+    &Spelers {
+        margin: 0;
+        margin-top: 1rem;
+        font-weight: 800;
+
+        &Text {
+            margin-top: 3rem;
+        }
+    }
+    &Req {
+        margin: 0;
+        
+    }
+    &Rules {
+        margin: 0;
+        
+    }
+    &Notes {
+        margin: 0 0 1rem 0;
+        
+    }
+    &Container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &Button {
+        border-radius: 8px;
+        background: #7b7b7b;
+        padding: 4px 16px;
+        border: 0;
+        margin: 0 auto;
+        align-self: center;
+        &:hover {
+            background: #676666;
+        }
+    }
+}
