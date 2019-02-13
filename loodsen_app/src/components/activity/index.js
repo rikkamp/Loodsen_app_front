@@ -14,7 +14,7 @@ export default class activity extends Component {
       }
 
       generate = async () => {
-        const response = await fetch('http://localhost:8000/api/game', {
+        const response = await fetch('http://rikkawp277.277.axc.nl/api/game', {
           method: "GET",
           headers: {
             'accept': 'application/json',

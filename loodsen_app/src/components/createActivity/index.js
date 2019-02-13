@@ -56,7 +56,7 @@ export default class createActivity extends Component {
                     })
             }
             console.log(this.body)
-            const response = await fetch('http://localhost:8000/api/game', {
+            const response = await fetch('http://rikkawp277.277.axc.nl/api/game', {
             method: "PUT",
             body: this.body,
             headers: {
